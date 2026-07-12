@@ -1,0 +1,39 @@
+name: Fetch this-day-in-history data
+
+on:
+  schedule:
+    # 每天 UTC 22:00 ≈ 北京次日 06:00
+    - cron: '0 22 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run fetch script
+        run: node scripts/fetch.js
+
+      - name: Commit & push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            MD=$(TZ=Asia/Shanghai date +%m-%d)
+            git commit -m "chore: update this-day-in-history data ($MD)"
+            git push
+          fi

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="description" content="历史上的今天 — 每天回顾大事件、人物生卒与节日纪念。" />
+    <title>历史上的今天</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="title-block">
+          <h1 class="site-title">历史上的今天</h1>
+          <p class="site-sub">On This Day in History</p>
+        </div>
+        <div class="date-block">
+          <div class="big-date" id="bigDate">载入中…</div>
+          <label class="picker">
+            <span class="picker-label">回看</span>
+            <select id="datePicker" aria-label="选择历史快照日期">
+              <option value="">最新</option>
+            </select>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <nav class="tabs" id="tabs" aria-label="分区切换">
+      <button class="tab active" data-tab="all">全部</button>
+      <button class="tab" data-tab="events">事件</button>
+      <button class="tab" data-tab="births">出生</button>
+      <button class="tab" data-tab="deaths">逝世</button>
+      <button class="tab" data-tab="holidays">节日</button>
+    </nav>
+
+    <div class="search-wrap">
+      <input
+        id="search"
+        class="search-input"
+        type="search"
+        placeholder="搜索关键词（标题 / 描述）…"
+        aria-label="搜索"
+        autocomplete="off"
+      />
+    </div>
+
+    <main class="content">
+      <div id="status" class="status" hidden></div>
+      <div id="timeline" class="timeline"></div>
+    </main>
+
+    <footer class="site-footer">
+      <p>数据来源：Wikimedia / 60s.viki.moe · 由 GitHub Actions 每日自动更新</p>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

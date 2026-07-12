@@ -1,0 +1,13 @@
+{
+  "name": "this-day-in-history",
+  "version": "1.0.0",
+  "private": true,
+  "description": "纯静态「历史上的今天」网站，数据由 GitHub Actions 每日自动抓取（Wikimedia / 60s.viki.moe，免 key）。",
+  "scripts": {
+    "fetch": "node scripts/fetch.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

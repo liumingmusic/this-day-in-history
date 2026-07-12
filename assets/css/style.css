@@ -1,0 +1,422 @@
+/* ============================================================
+   历史上的今天 — 样式表
+   浅色 · 米白书卷感 · 暖棕/墨蓝点缀
+   ============================================================ */
+
+:root {
+  --bg: #f7f1e3;
+  --bg-soft: #f1e8d4;
+  --card: #fffdf7;
+  --ink: #3a2f25;
+  --muted: #8a7a66;
+  --line: #ddd0b4;
+  --accent: #9c5b2e; /* 暖棕 */
+  --accent-ink: #2e5e7e; /* 墨蓝 */
+  --gold: #b8860b;
+  --shadow: 0 2px 10px rgba(90, 64, 30, 0.08);
+  --radius: 12px;
+
+  /* 分区色 */
+  --c-events: #b5651d;
+  --c-births: #2e6f95;
+  --c-deaths: #8a5a44;
+  --c-holidays: #c79a3a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* 杜绝横向溢出 */
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Noto Serif SC", "Songti SC", "STSong", "SimSun", Georgia, serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background-image: radial-gradient(rgba(156, 91, 46, 0.05) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* ----------------------- 头部 ----------------------- */
+.site-header {
+  background: linear-gradient(180deg, #fbf6ea 0%, #f3ead6 100%);
+  border-bottom: 2px solid var(--line);
+  padding: 18px 16px 14px;
+  box-shadow: var(--shadow);
+}
+
+.header-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", serif;
+  font-size: 30px;
+  margin: 0;
+  letter-spacing: 2px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.site-sub {
+  margin: 2px 0 0;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-family: Georgia, serif;
+}
+
+.date-block {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.big-date {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--accent-ink);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.picker {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.picker-label {
+  margin-bottom: 2px;
+}
+
+#datePicker {
+  min-height: 40px;
+  padding: 6px 28px 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--card)
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M2 4l4 4 4-4' stroke='%238a7a66' stroke-width='1.5' fill='none'/></svg>")
+    no-repeat right 8px center;
+  color: var(--ink);
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  max-width: 160px;
+}
+
+/* ----------------------- Tab ----------------------- */
+.tabs {
+  max-width: 1080px;
+  margin: 16px auto 0;
+  padding: 0 16px;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tab {
+  min-height: 40px;
+  padding: 0 18px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--muted);
+  border-radius: 999px;
+  font-size: 15px;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.tab:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  box-shadow: var(--shadow);
+}
+
+/* ----------------------- 搜索 ----------------------- */
+.search-wrap {
+  max-width: 1080px;
+  margin: 14px auto 0;
+  padding: 0 16px;
+}
+
+.search-input {
+  width: 100%;
+  min-height: 42px;
+  padding: 0 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  font-size: 15px;
+  font-family: inherit;
+  color: var(--ink);
+  box-shadow: var(--shadow);
+}
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+/* ----------------------- 内容区 ----------------------- */
+.content {
+  max-width: 1080px;
+  margin: 18px auto 40px;
+  padding: 0 16px;
+}
+
+.status {
+  text-align: center;
+  color: var(--muted);
+  padding: 40px 12px;
+  font-size: 15px;
+}
+.status.error {
+  color: #a23b2d;
+}
+.status .spinner {
+  width: 26px;
+  height: 26px;
+  border: 3px solid var(--line);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  margin: 0 auto 12px;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 分组标题（全部视图） */
+.group-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 19px;
+  font-weight: 700;
+  margin: 22px 0 12px;
+  color: var(--ink);
+}
+.group-title::before {
+  content: "";
+  width: 6px;
+  height: 22px;
+  border-radius: 3px;
+  background: var(--tl-color, var(--accent));
+}
+.group-title .count {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+/* ----------------------- 时间线 ----------------------- */
+.timeline {
+  position: relative;
+  --tl-color: var(--accent);
+  padding-top: 4px;
+}
+.tl-events {
+  --tl-color: var(--c-events);
+}
+.tl-births {
+  --tl-color: var(--c-births);
+}
+.tl-deaths {
+  --tl-color: var(--c-deaths);
+}
+.tl-holidays {
+  --tl-color: var(--c-holidays);
+}
+
+/* 竖向连接线 */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 33px;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    var(--tl-color) 12%,
+    var(--tl-color) 88%,
+    transparent
+  );
+  opacity: 0.45;
+}
+
+.entry {
+  position: relative;
+  display: grid;
+  grid-template-columns: 66px 1fr;
+  gap: 14px;
+  padding-bottom: 16px;
+  align-items: start;
+}
+
+.year-col {
+  display: flex;
+  justify-content: center;
+  padding-top: 6px;
+}
+
+.year-badge {
+  min-width: 48px;
+  height: 48px;
+  padding: 0 6px;
+  border-radius: 50%;
+  background: var(--tl-color);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.1;
+  box-shadow: 0 0 0 4px var(--bg), 0 2px 6px rgba(0, 0, 0, 0.12);
+  z-index: 1;
+}
+.year-badge.bce {
+  font-size: 11px;
+}
+.year-badge.festival {
+  font-size: 12px;
+  background: var(--c-holidays);
+}
+
+.card {
+  position: relative;
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--tl-color);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  text-decoration: none;
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  min-height: 40px;
+}
+a.card:hover {
+  transform: translateX(2px);
+  box-shadow: 0 4px 14px rgba(90, 64, 30, 0.16);
+}
+.card .text {
+  font-size: 15.5px;
+  margin: 0;
+}
+.card .meta {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.card .thumb {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  background: var(--bg-soft);
+}
+/* 有缩略图时给文本留出右侧空间 */
+.card.has-thumb .text {
+  padding-right: 64px;
+}
+
+.site-footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+  padding: 20px 16px 32px;
+  border-top: 1px solid var(--line);
+}
+
+/* ----------------------- 响应式（手机端） ----------------------- */
+@media (max-width: 720px) {
+  body {
+    font-size: 15px;
+  }
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .date-block {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .big-date {
+    font-size: 28px;
+  }
+  .site-title {
+    font-size: 24px;
+  }
+  .tabs {
+    padding: 0 12px;
+  }
+  .tab {
+    font-size: 14px;
+    padding: 0 14px;
+  }
+  .content,
+  .search-wrap {
+    padding: 0 12px;
+  }
+  .entry {
+    grid-template-columns: 56px 1fr;
+    gap: 10px;
+  }
+  .timeline::before {
+    left: 28px;
+  }
+  .year-badge {
+    min-width: 44px;
+    height: 44px;
+    font-size: 12px;
+  }
+  .card .text {
+    font-size: 15px;
+  }
+}

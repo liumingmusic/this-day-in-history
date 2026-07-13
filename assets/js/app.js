@@ -22,6 +22,7 @@
     featured: document.getElementById('featured'),
     featuredGrid: document.getElementById('featuredGrid'),
     status: document.getElementById('status'),
+    posterLink: document.getElementById('posterLink'),
   };
 
   var state = {
@@ -251,6 +252,8 @@
   /* ---------------- 加载快照 ---------------- */
   function loadSnapshot(file) {
     showLoading('正在载入 ' + file + ' …');
+    // 先隐藏海报入口，加载成功后按需显示
+    if (els.posterLink) els.posterLink.hidden = true;
     fetch('data/snapshots/' + file, { cache: 'no-store' })
       .then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -263,6 +266,18 @@
         els.bigDate.textContent = label || file.replace('.json', '');
         renderHero();
         render();
+        // 海报入口：按快照日期推导同名 SVG，存在才显示
+        if (els.posterLink) {
+          var posterUrl = 'data/posters/' + file.replace(/\.json$/, '.svg');
+          fetch(posterUrl, { method: 'GET', cache: 'no-store' })
+            .then(function (pr) {
+              if (pr.ok) {
+                els.posterLink.href = posterUrl;
+                els.posterLink.hidden = false;
+              }
+            })
+            .catch(function () {});
+        }
       })
       .catch(function (e) {
         showError('加载快照失败：' + e.message + '。请稍后重试或等待每日自动更新。');

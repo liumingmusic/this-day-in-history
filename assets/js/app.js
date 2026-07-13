@@ -19,6 +19,8 @@
     tabs: document.getElementById('tabs'),
     search: document.getElementById('search'),
     timeline: document.getElementById('timeline'),
+    featured: document.getElementById('featured'),
+    featuredGrid: document.getElementById('featuredGrid'),
     status: document.getElementById('status'),
   };
 
@@ -133,6 +135,61 @@
     return hay.indexOf(q) >= 0;
   }
 
+  /* ---------------- 渲染今日焦点（头部重点展示） ---------------- */
+  function renderHero() {
+    var snap = state.current;
+    if (!snap) return;
+    var q = state.query.trim().toLowerCase();
+    // 兼容旧快照：无 featured 时回退取前 3 条事件
+    var featured =
+      snap.featured && snap.featured.length
+        ? snap.featured
+        : (snap.sections && snap.sections.events ? snap.sections.events : []).slice(0, 3);
+    var items = featured.filter(function (it) {
+      return matchesQuery(it, q);
+    });
+    if (!items.length) {
+      els.featured.hidden = true;
+      els.featuredGrid.innerHTML = '';
+      return;
+    }
+    els.featured.hidden = false;
+    var html = '';
+    items.forEach(function (it) {
+      var yearStr = formatYear(it.year);
+      var badge = yearStr === null ? '焦点' : yearStr;
+      var hasThumb = !!it.thumb;
+      var inner =
+        '<span class="feat-year">' +
+        escapeHtml(badge) +
+        '</span>' +
+        (hasThumb
+          ? '<img class="feat-thumb" src="' +
+            escapeAttr(it.thumb) +
+            '" alt="" loading="lazy" onerror="this.remove()">'
+          : '') +
+        '<p class="feat-text">' +
+        escapeHtml(it.text) +
+        '</p>' +
+        (it.link ? '<span class="feat-link">阅读全文 ↗</span>' : '');
+      var card = it.link
+        ? '<a class="feat-card' +
+          (hasThumb ? ' has-thumb' : '') +
+          '" href="' +
+          escapeAttr(it.link) +
+          '" target="_blank" rel="noopener">' +
+          inner +
+          '</a>'
+        : '<div class="feat-card' +
+          (hasThumb ? ' has-thumb' : '') +
+          '">' +
+          inner +
+          '</div>';
+      html += card;
+    });
+    els.featuredGrid.innerHTML = html;
+  }
+
   /* ---------------- 渲染时间线 ---------------- */
   function render() {
     var snap = state.current;
@@ -204,6 +261,7 @@
         state.currentFile = file;
         var label = monthDayToLabel(snap.monthDay);
         els.bigDate.textContent = label || file.replace('.json', '');
+        renderHero();
         render();
       })
       .catch(function (e) {
@@ -251,11 +309,13 @@
     Array.prototype.forEach.call(els.tabs.children, function (c) {
       c.classList.toggle('active', c === btn);
     });
+    renderHero();
     render();
   });
 
   els.search.addEventListener('input', function () {
     state.query = els.search.value;
+    renderHero();
     render();
   });
 

@@ -25,8 +25,8 @@ const SNAP_DIR = path.join(DATA_DIR, 'snapshots');
 const MANIFEST_PATH = path.join(DATA_DIR, 'manifest.json');
 const KEEP_DAYS = 40;
 
-// 各类保留条数上限（事件 15–25，出生/逝世各 8–15，节日全部）
-const LIMITS = { events: 25, births: 15, deaths: 15 };
+// 展示上限：焦点 3 条 + 事件 12 + 出生 4 + 逝世 4 + 节日全部 ≈ 20 余条
+const LIMITS = { featured: 3, events: 12, births: 4, deaths: 4 };
 
 const UA =
   'this-day-in-history-bot/1.0 (https://github.com/liumingmusic/this-day-in-history; educational use)';
@@ -74,15 +74,22 @@ function mapItem(item) {
   };
 }
 
-function dedupeAndLimit(items, limit) {
+function keyOf(it) {
+  return `${(it.year ?? '')}|${it.text}`;
+}
+function dedupe(items) {
   const seen = new Set();
   const out = [];
   for (const it of items) {
-    const key = `${(it.year ?? '')}|${it.text}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
+    const k = keyOf(it);
+    if (seen.has(k)) continue;
+    seen.add(k);
     out.push(it);
   }
+  return out;
+}
+function dedupeAndLimit(items, limit) {
+  const out = dedupe(items);
   out.sort((a, b) => (a.year ?? 99999) - (b.year ?? 99999)); // 按年份升序
   return out.slice(0, limit);
 }
@@ -92,10 +99,19 @@ async function fetchWikimedia(mm, dd) {
   log('主源 Wikimedia:', url);
   const data = await fetchJSON(url, { headers: { Accept: 'application/json' } });
 
+  const selectedItems = (data.selected || []).map(mapItem);
+  const eventItems = (data.events || []).map(mapItem);
+
+  // 今日焦点：取编辑精选（selected）前 N 条，保持精选排序
+  const featured = dedupe(selectedItems).slice(0, LIMITS.featured);
+  const featKeys = new Set(featured.map(keyOf));
+
+  // 事件列表：合并精选+全部，去重、按年升序，剔除已作为焦点的条目
   const events = dedupeAndLimit(
-    [...(data.selected || []), ...(data.events || [])].map(mapItem),
+    [...selectedItems, ...eventItems].filter((e) => !featKeys.has(keyOf(e))),
     LIMITS.events
   );
+
   const births = dedupeAndLimit((data.births || []).map(mapItem), LIMITS.births);
   const deaths = dedupeAndLimit((data.deaths || []).map(mapItem), LIMITS.deaths);
   const holidays = (data.holidays || []).map((h) => {
@@ -106,7 +122,7 @@ async function fetchWikimedia(mm, dd) {
     return { year: null, text: (h.text || '').trim(), thumb: '', link };
   });
 
-  return { source: 'wikimedia', events, births, deaths, holidays };
+  return { source: 'wikimedia', featured, events, births, deaths, holidays };
 }
 
 async function fetchFallback() {
@@ -115,16 +131,17 @@ async function fetchFallback() {
     headers: { Accept: 'application/json' },
   });
   const items = data && data.data && Array.isArray(data.data.items) ? data.data.items : [];
-  const events = items
+  const all = items
     .map((it) => ({
       year: it.year && /^-?\d+$/.test(String(it.year)) ? parseInt(it.year, 10) : null,
       text: (it.description || it.title || '').trim(),
       thumb: '',
       link: '',
     }))
-    .sort((a, b) => (a.year ?? 99999) - (b.year ?? 99999))
-    .slice(0, LIMITS.events);
-  return { source: '60s.viki.moe', events, births: [], deaths: [], holidays: [] };
+    .sort((a, b) => (a.year ?? 99999) - (b.year ?? 99999));
+  const featured = all.slice(0, LIMITS.featured);
+  const events = all.slice(LIMITS.featured, LIMITS.featured + LIMITS.events);
+  return { source: '60s.viki.moe', featured, events, births: [], deaths: [], holidays: [] };
 }
 
 async function main() {
@@ -164,12 +181,17 @@ async function main() {
   }
 
   const total =
-    result.events.length + result.births.length + result.deaths.length + result.holidays.length;
+    result.featured.length +
+    result.events.length +
+    result.births.length +
+    result.deaths.length +
+    result.holidays.length;
 
   const snapshot = {
     generatedAt,
     monthDay,
     source: result.source,
+    featured: result.featured,
     sections: {
       events: result.events,
       births: result.births,
@@ -219,11 +241,12 @@ async function main() {
   console.log('source   :', result.source);
   console.log('monthDay :', monthDay);
   console.log('total    :', total);
+  console.log('featured :', result.featured.length);
   console.log('events   :', result.events.length);
   console.log('births   :', result.births.length);
   console.log('deaths   :', result.deaths.length);
   console.log('holidays :', result.holidays.length);
-  console.log('sample   :', result.events.slice(0, 3).map((e) => `${e.year}: ${e.text.slice(0, 24)}`));
+  console.log('sample   :', result.featured.slice(0, 3).map((e) => `${e.year}: ${e.text.slice(0, 24)}`));
   console.log('=============================\n');
 }
 

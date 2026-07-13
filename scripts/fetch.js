@@ -13,7 +13,7 @@
  *
  * 产物：
  *   data/snapshots/YYYY-MM-DD.json   当日北京日期快照
- *   data/manifest.json               索引（按 generatedAt 倒序，保留最近 40 天）
+ *   data/manifest.json               索引（按 generatedAt 倒序，保留最近 60 天）
  */
 
 const fs = require('fs');
@@ -23,7 +23,8 @@ const ROOT = path.join(__dirname, '..');
 const DATA_DIR = path.join(ROOT, 'data');
 const SNAP_DIR = path.join(DATA_DIR, 'snapshots');
 const MANIFEST_PATH = path.join(DATA_DIR, 'manifest.json');
-const KEEP_DAYS = 40;
+const POSTER_DIR = path.join(DATA_DIR, 'posters');
+const KEEP_DAYS = 60;
 
 // 展示上限：焦点 3 条 + 事件 12 + 出生 4 + 逝世 4 + 节日全部 ≈ 20 余条
 const LIMITS = { featured: 3, events: 12, births: 4, deaths: 4 };
@@ -219,7 +220,7 @@ async function main() {
   manifest.snapshots.push({ file, monthDay, generatedAt, total });
   manifest.snapshots.sort((a, b) => new Date(b.generatedAt) - new Date(a.generatedAt));
 
-  // 仅保留最近 KEEP_DAYS 个快照，删除超出部分文件
+  // 仅保留最近 KEEP_DAYS 个快照，删除超出部分文件（含对应海报）
   const keep = manifest.snapshots.slice(0, KEEP_DAYS);
   const keepFiles = new Set(keep.map((s) => s.file));
   for (const s of manifest.snapshots) {
@@ -228,6 +229,12 @@ async function main() {
       if (fs.existsSync(p)) {
         fs.unlinkSync(p);
         log('删除过期快照:', s.file);
+      }
+      const posterName = s.file.replace(/\.json$/, '.svg');
+      const pp = path.join(POSTER_DIR, posterName);
+      if (fs.existsSync(pp)) {
+        fs.unlinkSync(pp);
+        log('删除过期海报:', posterName);
       }
     }
   }

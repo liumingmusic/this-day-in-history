@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-12T22:38:14.562Z",
+  "updatedAt": "2026-07-13T13:54:14.975Z",
   "snapshots": [
     {
       "file": "2026-07-13.json",
       "monthDay": "07-13",
-      "generatedAt": "2026-07-12T22:38:14.562Z",
-      "total": 57
+      "generatedAt": "2026-07-13T13:54:14.975Z",
+      "total": 25
     },
     {
       "file": "2026-07-12.json",
       "monthDay": "07-12",
-      "generatedAt": "2026-07-12T15:12:56.143Z",
+      "generatedAt": "2026-07-12T15:06:09.581Z",
       "total": 58
     }
   ]

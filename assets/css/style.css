@@ -171,6 +171,37 @@ body {
   box-shadow: var(--shadow);
 }
 
+.date-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.poster-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 40px;
+  padding: 6px 14px;
+  border: 1px solid var(--vermilion);
+  border-radius: 4px;
+  color: var(--vermilion-deep);
+  background: rgba(178, 59, 46, 0.08);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: var(--shadow);
+  transition: background 0.15s, transform 0.1s;
+}
+.poster-link:hover {
+  background: rgba(178, 59, 46, 0.16);
+}
+.poster-link:active {
+  transform: translateY(1px);
+}
+
 /* ----------------------- 今日焦点 ----------------------- */
 .featured {
   max-width: 1080px;
@@ -570,7 +601,15 @@ a.card:hover {
   }
   .date-block {
     width: 100%;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .date-tools {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
   }
   .big-date {
     font-size: 30px;

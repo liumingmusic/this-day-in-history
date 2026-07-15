@@ -611,6 +611,15 @@ a.card:hover {
     align-items: center;
     gap: 10px;
   }
+  /* 手机端：「回看」标签与下拉框横向并排，与海报按钮等高对齐 */
+  .picker {
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+  }
+  .picker-label {
+    margin-bottom: 0;
+  }
   .big-date {
     font-size: 30px;
   }

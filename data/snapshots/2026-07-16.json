@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T22:49:52.888Z",
+  "generatedAt": "2026-07-16T04:51:32.723Z",
   "monthDay": "07-16",
   "source": "wikimedia",
   "featured": [
@@ -49,6 +49,12 @@
         "link": "https://zh.wikipedia.org/wiki/1212%E5%B9%B4"
       },
       {
+        "year": 1232,
+        "text": "穆罕默德·伊本·尤素福當選為阿爾霍納的統治者，後來建立了格拉納達酋長國，即西班牙境內最後一個穆斯林國家。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1232%E5%B9%B4"
+      },
+      {
         "year": 1377,
         "text": "十歲的理查二世在西敏寺加冕為英格蘭國王。",
         "thumb": "",
@@ -89,12 +95,6 @@
         "text": "俄国最后一任沙皇尼古拉二世与其家人在叶卡捷琳堡被发起俄国革命的布尔什维克处决。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1918%E5%B9%B4"
-      },
-      {
-        "year": 1920,
-        "text": "《臺灣青年》創刊號於東京發行，由赴日求學之臺灣學生所組成的「新民會」所籌辦，對日後新文化運動影響深遠。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1920%E5%B9%B4"
       }
     ],
     "births": [

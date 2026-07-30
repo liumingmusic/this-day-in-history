@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T22:51:59.596Z",
+  "generatedAt": "2026-07-30T04:48:16.218Z",
   "monthDay": "07-30",
   "source": "wikimedia",
   "featured": [
@@ -67,6 +67,12 @@
         "link": "https://zh.wikipedia.org/wiki/1905%E5%B9%B4"
       },
       {
+        "year": 1916,
+        "text": "第一次世界大戰：德國間諜在紐約港破壞了原定供應給盟軍的美國製軍火。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1916%E5%B9%B4"
+      },
+      {
         "year": 1920,
         "text": "台灣市制實施，為台灣總督府於台灣實施的重要地方自治措施。",
         "thumb": "",
@@ -89,12 +95,6 @@
         "text": "乌拉圭国家足球队在决赛以4比2击败阿根廷国家足球队，赢得首届国际足协世界杯冠军。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1930%E5%B9%B4"
-      },
-      {
-        "year": 1932,
-        "text": "第10届夏季夏季奥林匹克运动会在美国洛杉矶开幕，这也是中国第一次派出代表队参加奥运会。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1932%E5%B9%B4"
       }
     ],
     "births": [

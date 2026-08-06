@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T22:49:05.443Z",
+  "generatedAt": "2026-08-06T04:55:55.696Z",
   "monthDay": "08-06",
   "source": "wikimedia",
   "featured": [
@@ -125,6 +125,12 @@
     ],
     "deaths": [
       {
+        "year": 1221,
+        "text": "聖道明，西班牙神父，道明會會祖（1170年出生）",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1221%E5%B9%B4"
+      },
+      {
         "year": 1458,
         "text": "教宗嘉禮三世，羅馬主教（1378年出生）",
         "thumb": "",
@@ -141,12 +147,6 @@
         "text": "馬庫斯·埃利澤·布洛赫，德國醫生、博物學家（1723年出生）",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1799%E5%B9%B4"
-      },
-      {
-        "year": 1867,
-        "text": "福斯坦·蘇盧克，海地軍事、政治人物，第7任海地總統（1782年出生）",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1867%E5%B9%B4"
       }
     ],
     "holidays": [

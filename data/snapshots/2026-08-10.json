@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T22:19:59.929Z",
+  "generatedAt": "2026-08-10T03:43:17.730Z",
   "monthDay": "08-10",
   "source": "wikimedia",
   "featured": [
@@ -44,9 +44,15 @@
       },
       {
         "year": 991,
-        "text": "马尔登战役中，英格兰人在比尔特诺斯领导下抗击维京人入侵失败。",
+        "text": "马尔登战役中，英格兰人在比尔特诺斯领导下抗击維京人入侵失败。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/991%E5%B9%B4"
+      },
+      {
+        "year": 1270,
+        "text": "耶庫諾·阿姆拉克廢黜了最後一位扎格韋王朝國王，並奪取了衣索比亞的帝位，由此開啟了所羅門王朝的統治，該王朝的統治歷時超過700年。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1270%E5%B9%B4"
       },
       {
         "year": 1519,
@@ -89,12 +95,6 @@
         "text": "法國政府決定將羅浮宮作為博物館向公眾開放，後來成為參觀人數最多的藝術博物館。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1793%E5%B9%B4"
-      },
-      {
-        "year": 1809,
-        "text": "厄瓜多尔宣布独立脱离西班牙长达三个世纪的殖民统治，但直到1822年才徹底擺脫西班牙控制。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1809%E5%B9%B4"
       }
     ],
     "births": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T22:31:23.131Z",
+  "generatedAt": "2026-08-14T03:55:37.044Z",
   "monthDay": "08-14",
   "source": "wikimedia",
   "featured": [
@@ -111,16 +111,16 @@
         "link": "https://zh.wikipedia.org/wiki/1297%E5%B9%B4"
       },
       {
+        "year": 1502,
+        "text": "彼得·庫克·范·阿爾斯特，佛拉蒙藝術家、作家（1550年逝世）",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1502%E5%B9%B4"
+      },
+      {
         "year": 1642,
         "text": "科西莫三世·德·麥地奇，托斯卡納大公（1723年逝世）",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1642%E5%B9%B4"
-      },
-      {
-        "year": 1688,
-        "text": "腓特烈·威廉一世，普魯士國王（1740年逝世）",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1688%E5%B9%B4"
       }
     ],
     "deaths": [

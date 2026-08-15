@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T22:12:37.945Z",
+  "generatedAt": "2026-08-15T02:45:02.536Z",
   "monthDay": "08-15",
   "source": "wikimedia",
   "featured": [
@@ -41,6 +41,12 @@
         "text": "神圣罗马帝国的科隆大教堂举行奠基典礼。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1248%E5%B9%B4"
+      },
+      {
+        "year": 1261,
+        "text": "米海爾八世·巴列奧略在君士坦丁堡加冕為拜占庭皇帝。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1261%E5%B9%B4"
       },
       {
         "year": 1281,
@@ -89,12 +95,6 @@
         "text": "同盟國軍隊自法國南部海岸登陸，並於數週內成功解放法國南部。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1944%E5%B9%B4"
-      },
-      {
-        "year": 1945,
-        "text": "日本昭和天皇透過廣播宣讀《終戰詔書》，接受同盟國《波茨坦公告》而無條件投降。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1945%E5%B9%B4"
       }
     ],
     "births": [

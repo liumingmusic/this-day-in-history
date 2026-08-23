@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T22:12:04.825Z",
+  "generatedAt": "2026-08-23T02:54:01.218Z",
   "monthDay": "08-23",
   "source": "wikimedia",
   "featured": [
@@ -79,6 +79,12 @@
         "link": "https://zh.wikipedia.org/wiki/1628%E5%B9%B4"
       },
       {
+        "year": 1775,
+        "text": "英國國王喬治三世頒布一道公告，宣布大不列顛的美國殖民地部分地區已處於「公開且公然叛亂」的狀態。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1775%E5%B9%B4"
+      },
+      {
         "year": 1799,
         "text": "拿破仑离开埃及，打算返回法国夺权。",
         "thumb": "",
@@ -89,12 +95,6 @@
         "text": "第一次鴉片戰爭：英国占领香港，準備向清廷開戰。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1839%E5%B9%B4"
-      },
-      {
-        "year": 1866,
-        "text": "普魯士在普奧戰爭擊敗奧地利帝國，雙方簽署《布拉格條約》並解散德意志邦联。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1866%E5%B9%B4"
       }
     ],
     "births": [

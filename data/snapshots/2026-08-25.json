@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T22:15:55.514Z",
+  "generatedAt": "2026-08-25T02:50:41.615Z",
   "monthDay": "08-25",
   "source": "wikimedia",
   "featured": [
@@ -29,6 +29,12 @@
         "text": "东罗马皇帝君士坦丁五世发现了企图推翻他的阴谋，并处决了叛变的首领。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/766%E5%B9%B4"
+      },
+      {
+        "year": 1258,
+        "text": "尼西亞帝國的攝政王喬治·木扎倫，在由未來皇帝米海爾八世領導的貴族陰謀中遭暗殺。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1258%E5%B9%B4"
       },
       {
         "year": 1270,
@@ -89,12 +95,6 @@
         "text": "比利時獨立革命爆發。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1830%E5%B9%B4"
-      },
-      {
-        "year": 1894,
-        "text": "日本生物學家北里柴三郎發現鼠疫杆菌。",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Port_Arthur_Massacre.jpg/330px-Port_Arthur_Massacre.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "link": "https://zh.wikipedia.org/wiki/1894%E5%B9%B4"
       }
     ],
     "births": [

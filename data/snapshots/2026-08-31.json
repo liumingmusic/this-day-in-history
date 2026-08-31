@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-31T00:01:59.418Z",
+  "generatedAt": "2026-08-31T07:53:16.624Z",
   "monthDay": "08-31",
   "source": "wikimedia",
   "featured": [
     {
       "year": 1997,
-      "text": "英國（圖）和男友多迪·法耶茲在法國巴黎阿爾馬橋隧道內發生車禍逝世。",
+      "text": "英國威尔士王妃戴安娜（圖）和男友多迪·法耶茲在法國巴黎阿爾馬橋隧道內發生車禍逝世。",
       "thumb": "",
       "link": "https://zh.wikipedia.org/wiki/1997%E5%B9%B4"
     },
     {
       "year": 1957,
-      "text": "馬來西亞半島的馬來亞聯合邦脫離大英帝國殖民統治獨立，並成為成員國。",
+      "text": "馬來西亞半島的馬來亞聯合邦脫離大英帝國殖民統治獨立，並成為英联邦成員國。",
       "thumb": "",
       "link": "https://zh.wikipedia.org/wiki/1957%E5%B9%B4"
     },
@@ -27,6 +27,12 @@
       {
         "year": 1056,
         "text": "罗马女皇生于紫室者狄奥多拉病故，曾经复兴东罗马帝国的马其顿王朝在延续近200年后绝嗣。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1056%E5%B9%B4"
+      },
+      {
+        "year": 1056,
+        "text": "羅馬女皇生於紫室者狄奧多拉病故，曾經復興東羅馬帝國的馬其頓王朝在延續近200年後絕嗣。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1056%E5%B9%B4"
       },
@@ -62,7 +68,7 @@
       },
       {
         "year": 1422,
-        "text": "英格兰国王亨利五世去世，其九个月大的儿子亨利六世成为新国王。",
+        "text": "英格蘭的亨利五世意外死於斑疹傷寒，未能在生前依據《特魯瓦條約》繼承查理六世的法國王位。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1422%E5%B9%B4"
       },
@@ -86,15 +92,9 @@
       },
       {
         "year": 1888,
-        "text": "瑪麗·安·尼可斯（英语：）的屍體在倫敦巴克街（英语：）被發現，她據稱是被稱為開膛手傑克的不明身份連環殺手的第一位受害者。",
+        "text": "瑪麗·安·尼可斯（英语：Mary Ann Nichols）的屍體在倫敦巴克街（英语：Durward Street）被發現，她據稱是被稱為開膛手傑克的不明身份連環殺手的第一位受害者。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1888%E5%B9%B4"
-      },
-      {
-        "year": 1897,
-        "text": "美國發明家愛迪生获得活動電影放映機的專利。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1897%E5%B9%B4"
       }
     ],
     "births": [
@@ -164,7 +164,7 @@
       },
       {
         "year": null,
-        "text": "：独立日",
+        "text": "吉尔吉斯斯坦：独立日",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/%E5%90%89%E5%B0%94%E5%90%89%E6%96%AF%E6%96%AF%E5%9D%A6"
       },

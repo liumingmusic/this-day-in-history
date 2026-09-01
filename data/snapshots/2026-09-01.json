@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T00:54:30.687Z",
+  "generatedAt": "2026-09-01T06:58:33.622Z",
   "monthDay": "09-01",
   "source": "wikimedia",
   "featured": [
@@ -44,7 +44,7 @@
       },
       {
         "year": 1449,
-        "text": "土木堡之变：明英宗被王振挟持以五十万大军亲征蒙古瓦剌部，在土木堡（今河北怀来县西南）被瓦剌军包围，英宗被俘。",
+        "text": "瓦剌太師也先率領蒙古軍隊擊敗太監王振統領的明朝軍隊，在土木堡之變擒獲御駕親征的明英宗。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1449%E5%B9%B4"
       },
@@ -79,6 +79,12 @@
         "link": "https://zh.wikipedia.org/wiki/1859%E5%B9%B4"
       },
       {
+        "year": 1862,
+        "text": "南北戰爭：在維吉尼亞州尚蒂利（英语：Chantilly, Virginia）的一場暴雨中，邦聯軍襲擊了正在撤退的聯邦軍，但這場戰役最終以平局告終。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1862%E5%B9%B4"
+      },
+      {
         "year": 1870,
         "text": "普法戰爭：以普魯士王國威廉一世及老毛奇為首的北日耳曼聯邦軍隊在色當會戰打敗法蘭西第二帝國軍隊並俘虜波拿巴王朝皇帝拿破崙三世及元帥帕特里斯·麥克馬洪。",
         "thumb": "",
@@ -89,12 +95,6 @@
         "text": "第一部科幻電影《月球旅行記》在法國上映。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1902%E5%B9%B4"
-      },
-      {
-        "year": 1905,
-        "text": "艾伯塔省与萨斯喀彻温省加入加拿大邦联。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1905%E5%B9%B4"
       }
     ],
     "births": [

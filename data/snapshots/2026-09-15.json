@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T00:04:51.238Z",
+  "generatedAt": "2026-09-15T06:57:14.843Z",
   "monthDay": "09-15",
   "source": "wikimedia",
   "featured": [
@@ -41,6 +41,12 @@
         "text": "美國獨立戰爭：英軍在曼哈頓的基普灣實施了毫無阻礙的兩棲登陸，美軍守軍因炮火襲擊而潰逃。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1776%E5%B9%B4"
+      },
+      {
+        "year": 1791,
+        "text": "法國劇作家奧蘭普·德古熱發表了《婦女和女性公民權利宣言》，希望藉此揭露法國大革命在承認性別平等方面所存在的缺失。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1791%E5%B9%B4"
       },
       {
         "year": 1821,
@@ -89,12 +95,6 @@
         "text": "中國奉系軍閥張作霖率领军队向掌握中央政府的直系军阀发起进攻，第二次直奉戰爭爆发。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1924%E5%B9%B4"
-      },
-      {
-        "year": 1932,
-        "text": "日本正式承认“满洲国”。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1932%E5%B9%B4"
       }
     ],
     "births": [

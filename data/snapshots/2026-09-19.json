@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T23:45:05.792Z",
+  "generatedAt": "2026-09-19T06:50:44.147Z",
   "monthDay": "09-19",
   "source": "wikimedia",
   "featured": [
@@ -73,12 +73,6 @@
         "link": "https://zh.wikipedia.org/wiki/1796%E5%B9%B4"
       },
       {
-        "year": 1796,
-        "text": "美国总统乔治·华盛顿的告别演说作为一封公开信在全美刊发。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1796%E5%B9%B4"
-      },
-      {
         "year": 1799,
         "text": "法国大革命战争期间，法荷联军在卑尔根战役（英语：Battle of Bergen (1799)）中战胜俄英联军。",
         "thumb": "",
@@ -95,6 +89,12 @@
         "text": "美国南北战争期间，奇卡莫加战役爆发，北部联邦的奇卡莫加进攻行动至此结束。这次战役是联邦在西部战区取得最重要胜利，也是南北战争中伤亡人数第二多的战役，它同时是南北战争在在乔治亚州战场最主要的战役。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1863%E5%B9%B4"
+      },
+      {
+        "year": 1864,
+        "text": "美国南北战争期间，第三次温彻斯特战役（英语：Third Battle of Winchester）爆发，北方军队在谢南多厄河谷取得了军事上和政治上的决定性胜利。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1864%E5%B9%B4"
       }
     ],
     "births": [
@@ -103,6 +103,12 @@
         "text": "安敦宁·毕尤，羅馬皇帝（161年逝世）",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/86%E5%B9%B4"
+      },
+      {
+        "year": 866,
+        "text": "利奧六世，東羅馬皇帝（912年逝世）",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/866%E5%B9%B4"
       },
       {
         "year": 931,
@@ -115,12 +121,6 @@
         "text": "阿爾布雷希特四世，哈布斯堡王朝奧地利大公（1404年逝世）",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1377%E5%B9%B4"
-      },
-      {
-        "year": 1551,
-        "text": "亨利三世，法蘭西國王（1589年逝世）",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1551%E5%B9%B4"
       }
     ],
     "deaths": [

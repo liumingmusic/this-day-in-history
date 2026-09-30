@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T00:53:44.369Z",
+  "generatedAt": "2026-09-30T07:41:40.841Z",
   "monthDay": "09-30",
   "source": "wikimedia",
   "featured": [
@@ -31,6 +31,12 @@
         "link": "https://zh.wikipedia.org/wiki/%E5%B8%8C%E4%BC%AF%E4%BE%86%E6%9B%86"
       },
       {
+        "year": 1342,
+        "text": "在百年戰爭的首場陸戰中，一支英-布列塔尼聯軍擊敗了規模遠大於己的法-布列塔尼聯軍。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1342%E5%B9%B4"
+      },
+      {
         "year": 1399,
         "text": "亨利四世宣布成为英格蘭国王。",
         "thumb": "",
@@ -43,6 +49,18 @@
         "link": "https://zh.wikipedia.org/wiki/1520%E5%B9%B4"
       },
       {
+        "year": 1520,
+        "text": "蘇萊曼一世在君士坦丁堡登基成為鄂圖曼帝國蘇丹兼哈里發，在他的治理下帝國走向全盛。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1520%E5%B9%B4"
+      },
+      {
+        "year": 1551,
+        "text": "日本西部大內氏的家臣陶晴賢，發動政變對抗大名大內義隆，導致後者被迫切腹自盡。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1551%E5%B9%B4"
+      },
+      {
         "year": 1791,
         "text": "法國國民制憲議會解散。",
         "thumb": "",
@@ -51,8 +69,8 @@
       {
         "year": 1791,
         "text": "奥地利作曲家莫扎特作曲的歌剧《魔笛》在维也纳剧院首演。",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/langzh-330px-Flag_of_Austria.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "link": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%9C%B0%E5%88%A9"
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Wolfgang-amadeus-mozart_1.jpg/330px-Wolfgang-amadeus-mozart_1.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "link": "https://zh.wikipedia.org/wiki/%E6%B2%83%E5%B0%94%E5%A4%AB%E5%86%88%C2%B7%E9%98%BF%E7%8E%9B%E5%A4%9A%E4%BC%8A%E6%96%AF%C2%B7%E8%8E%AB%E6%89%8E%E7%89%B9"
       },
       {
         "year": 1862,
@@ -62,7 +80,7 @@
       },
       {
         "year": 1862,
-        "text": "普魯士總理奧托·馮·俾斯麥在議會發表演說，強調當代的重大問題必須透過鐵與血來解決。",
+        "text": "普魯士總理奧托·馮·俾斯麥發表鐵血演說，宣稱德意志統一不能透過演說與投票完成，而必須用「血與鐵」來實現。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1862%E5%B9%B4"
       },
@@ -77,24 +95,6 @@
         "text": "中国河南郑州下汛十堡（今惠济区花园口镇石桥村）发生黄河决口，致使200多万（一说93万；一说最保守估计150万；一说700万）人罹难。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1887%E5%B9%B4"
-      },
-      {
-        "year": 1911,
-        "text": "意大利与土耳其争夺的黎波里，意大利向土耳其宣战。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1911%E5%B9%B4"
-      },
-      {
-        "year": 1911,
-        "text": "德国毛奇级战列巡洋舰竣工。",
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/SMS_Moltke_LOC_hec_01144.jpg/330px-SMS_Moltke_LOC_hec_01144.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "link": "https://zh.wikipedia.org/wiki/%E6%AF%9B%E5%A5%87%E7%BA%A7%E5%A4%A7%E5%B7%A1%E6%B4%8B%E8%88%B0"
-      },
-      {
-        "year": 1918,
-        "text": "德意志帝国施行議会制政府。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1918%E5%B9%B4"
       }
     ],
     "births": [
@@ -138,15 +138,15 @@
       },
       {
         "year": 1551,
-        "text": "三條公賴，三條家的當主。（1495年出生）",
+        "text": "三條公賴，三條家的當主（1495年出生）",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1551%E5%B9%B4"
       },
       {
-        "year": 1626,
-        "text": "清太祖努尔哈赤，清朝创始人（1559年出生）",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1626%E5%B9%B4"
+        "year": 1551,
+        "text": "大內義隆，日本戰國大名（1507年出生）",
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/%C5%8Cuchi_Yoshitaka.jpg/330px-%C5%8Cuchi_Yoshitaka.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "link": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%85%A7%E7%BE%A9%E9%9A%86"
       }
     ],
     "holidays": [

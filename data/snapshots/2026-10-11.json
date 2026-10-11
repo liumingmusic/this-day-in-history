@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T00:34:48.720Z",
+  "generatedAt": "2026-10-11T08:00:43.381Z",
   "monthDay": "10-11",
   "source": "wikimedia",
   "featured": [
@@ -43,6 +43,12 @@
         "link": "https://zh.wikipedia.org/wiki/1424%E5%B9%B4"
       },
       {
+        "year": 1424,
+        "text": "在胡斯戰爭中領導波希米亞反抗國王西吉斯蒙德和天主教會的揚·傑式卡在進攻摩拉維亞的過程中身亡。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1424%E5%B9%B4"
+      },
+      {
         "year": 1531,
         "text": "不滿糧食封鎖的瑞士天主教城邦突然襲擊蘇黎世，宗教改革運動領導人慈運理因而戰死。",
         "thumb": "",
@@ -79,22 +85,16 @@
         "link": "https://zh.wikipedia.org/wiki/1852%E5%B9%B4"
       },
       {
+        "year": 1865,
+        "text": "牙買加的黑人因為判決不公與英國殖民當局爆發暴力衝突，憤怒的黑人焚燒了法院和附近的建築物。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1865%E5%B9%B4"
+      },
+      {
         "year": 1896,
         "text": "孫中山在英国伦敦被清朝駐英國公使龔照瑗诱捕，進而撰《倫敦蒙難記》。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1896%E5%B9%B4"
-      },
-      {
-        "year": 1899,
-        "text": "以波耳人為主的川斯瓦共和國和奧蘭治自由邦向英國宣戰，第二次波耳戰爭爆發。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1899%E5%B9%B4"
-      },
-      {
-        "year": 1911,
-        "text": "武昌起義革命軍宣布成立由黎元洪領導的軍政府鄂軍都督府，並更改國號為「中華民國」。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1911%E5%B9%B4"
       }
     ],
     "births": [
@@ -144,7 +144,7 @@
       },
       {
         "year": 1424,
-        "text": "揚·傑式卡，捷克胡斯派军事领袖",
+        "text": "揚·傑式卡，捷克胡斯派军事领袖（1360年出生）",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1424%E5%B9%B4"
       }

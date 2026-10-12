@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T00:50:10.725Z",
+  "generatedAt": "2026-10-12T08:16:30.512Z",
   "monthDay": "10-12",
   "source": "wikimedia",
   "featured": [
@@ -55,12 +55,6 @@
         "link": "https://zh.wikipedia.org/wiki/1810%E5%B9%B4"
       },
       {
-        "year": 1810,
-        "text": "巴伐利亞王國維特爾斯巴赫王朝王儲路德維希王子邀請慕尼黑市民參加其婚禮狂歡派對，之後演變為慕尼黑啤酒節。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1810%E5%B9%B4"
-      },
-      {
         "year": 1822,
         "text": "巴西王國王儲佩德羅王子稱帝並宣佈巴西王國自葡萄牙－巴西－阿爾加維聯合王國獨立並改國號為巴西帝國。",
         "thumb": "",
@@ -95,6 +89,12 @@
         "text": "中东路事件：同江之役，蘇聯紅海軍重创中国乌苏里江江防舰队，占领黑瞎子岛。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1929%E5%B9%B4"
+      },
+      {
+        "year": 1933,
+        "text": "美國司法部取得舊金山灣阿爾卡特拉斯島上的一座軍事監獄，將其改建為最後的阿爾卡特拉斯島聯邦監獄。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1933%E5%B9%B4"
       }
     ],
     "births": [

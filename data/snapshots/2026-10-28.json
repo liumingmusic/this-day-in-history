@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T00:49:21.694Z",
+  "generatedAt": "2026-10-28T07:43:07.546Z",
   "monthDay": "10-28",
   "source": "wikimedia",
   "featured": [
@@ -32,7 +32,7 @@
       },
       {
         "year": 312,
-        "text": "君士坦丁一世击败马克森提，统一羅馬帝國。",
+        "text": "四帝內戰：君士坦丁大帝在羅馬的米爾維安大橋戰役中擊敗馬克森提烏斯。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/312%E5%B9%B4"
       },
@@ -47,6 +47,12 @@
         "text": "明朝第三代皇帝明成祖正式宣布定都北京，在重新建造的紫禁城在之後也宣告落成。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1420%E5%B9%B4"
+      },
+      {
+        "year": 1453,
+        "text": "拉斯洛五世雖被加冕為波希米亞國王，但波傑布拉德的伊日仍掌握著政府大權。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1453%E5%B9%B4"
       },
       {
         "year": 1492,
@@ -89,12 +95,6 @@
         "text": "美國獨立戰爭：當喬治·華盛頓的大陸軍從紐約市向北撤退時，英國陸軍佔領了白原市。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1776%E5%B9%B4"
-      },
-      {
-        "year": 1835,
-        "text": "在德克薩斯革命的首場重大戰役中，德克薩斯軍隊（英语：Texian Army）於康塞普西翁傳教站（英语：Mission Concepcion）（位於聖安東尼奧市中心（英语：Downtown San Antonio）以南）的戰場上擊退了墨西哥的進攻。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1835%E5%B9%B4"
       }
     ],
     "births": [

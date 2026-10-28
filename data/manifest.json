@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-27T07:01:29.542Z",
+  "updatedAt": "2026-10-28T00:49:21.694Z",
   "snapshots": [
+    {
+      "file": "2026-10-28.json",
+      "monthDay": "10-28",
+      "generatedAt": "2026-10-28T00:49:21.694Z",
+      "total": 32
+    },
     {
       "file": "2026-10-27.json",
       "monthDay": "10-27",
@@ -353,12 +359,6 @@
       "file": "2026-08-30.json",
       "monthDay": "08-30",
       "generatedAt": "2026-08-30T07:39:27.514Z",
-      "total": 31
-    },
-    {
-      "file": "2026-08-29.json",
-      "monthDay": "08-29",
-      "generatedAt": "2026-08-29T08:25:07.090Z",
       "total": 31
     }
   ]

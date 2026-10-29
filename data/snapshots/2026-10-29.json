@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T01:24:09.318Z",
+  "generatedAt": "2026-10-29T07:47:45.168Z",
   "monthDay": "10-29",
   "source": "wikimedia",
   "featured": [
@@ -73,6 +73,12 @@
         "link": "https://zh.wikipedia.org/wiki/1863%E5%B9%B4"
       },
       {
+        "year": 1868,
+        "text": "戊辰戰爭期間，南部氏在本州向日本帝國軍投降。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1868%E5%B9%B4"
+      },
+      {
         "year": 1883,
         "text": "舊金山鑄幣局簽署合約，為夏威夷王國生產卡拉卡瓦硬幣。",
         "thumb": "",
@@ -89,12 +95,6 @@
         "text": "第一次世界大戰：鄂圖曼土耳其帝國加入同盟國，对協約國宣战。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1914%E5%B9%B4"
-      },
-      {
-        "year": 1916,
-        "text": "第一次世界大戰：阿拉伯人在汉志起义，反对鄂圖曼土耳其帝國。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1916%E5%B9%B4"
       }
     ],
     "births": [

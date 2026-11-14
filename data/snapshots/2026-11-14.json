@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T01:54:07.187Z",
+  "generatedAt": "2026-11-14T08:17:36.576Z",
   "monthDay": "11-14",
   "source": "wikimedia",
   "featured": [
@@ -61,6 +61,12 @@
         "link": "https://zh.wikipedia.org/wiki/1680%E5%B9%B4"
       },
       {
+        "year": 1851,
+        "text": "美國作家赫爾曼·梅爾維爾的小說《白鯨記》最初在美國出版。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1851%E5%B9%B4"
+      },
+      {
         "year": 1854,
         "text": "巴黎天文台台长于尔班·勒威耶制作出世界上第一张天气图。",
         "thumb": "",
@@ -89,12 +95,6 @@
         "text": "德国皇帝威廉二世藉巨野教案，令其驻扎在上海的远东舰队侵占胶澳（今青岛）。",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/1897%E5%B9%B4"
-      },
-      {
-        "year": 1907,
-        "text": "日治時期的台灣爆發北埔事件，是發生於台灣新竹北埔的抗日事件。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1907%E5%B9%B4"
       }
     ],
     "births": [

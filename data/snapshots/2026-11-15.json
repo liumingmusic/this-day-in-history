@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T01:26:14.354Z",
+  "generatedAt": "2026-11-15T08:37:16.730Z",
   "monthDay": "11-15",
   "source": "wikimedia",
   "featured": [
@@ -55,6 +55,12 @@
         "link": "https://zh.wikipedia.org/wiki/1777%E5%B9%B4"
       },
       {
+        "year": 1859,
+        "text": "在希臘商人埃萬傑洛斯·扎帕斯（英语：Evangelos Zappas）的贊助下，首屆現代奧林匹克運動會於雅典舉行。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1859%E5%B9%B4"
+      },
+      {
         "year": 1864,
         "text": "聯邦軍將領威廉·T·谢尔曼焚毀亞特蘭大並發起從亞特蘭大到薩凡納的「谢尔曼向大海進軍」（圖）行動。",
         "thumb": "",
@@ -89,12 +95,6 @@
         "text": "但澤自由市建立。",
         "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_the_Free_City_of_Danzig.svg/langzh-330px-Flag_of_the_Free_City_of_Danzig.svg.png?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "link": "https://zh.wikipedia.org/wiki/%E4%BD%86%E6%BE%A4%E8%87%AA%E7%94%B1%E5%B8%82"
-      },
-      {
-        "year": 1922,
-        "text": "位於美國芝加哥華盛頓公園的時間噴泉，是為紀念《根特條約》簽訂後美英兩國百年和平而落成的紀念碑。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1922%E5%B9%B4"
       }
     ],
     "births": [

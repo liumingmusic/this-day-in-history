@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T02:03:56.535Z",
+  "generatedAt": "2026-11-23T09:59:04.387Z",
   "monthDay": "11-23",
   "source": "wikimedia",
   "featured": [
@@ -61,6 +61,12 @@
         "link": "https://zh.wikipedia.org/wiki/1700%E5%B9%B4"
       },
       {
+        "year": 1876,
+        "text": "因貪污罪被捕的紐約市政治人物威廉·特威德在越獄並逃往西班牙後，被移交給美國當局。",
+        "thumb": "",
+        "link": "https://zh.wikipedia.org/wiki/1876%E5%B9%B4"
+      },
+      {
         "year": 1920,
         "text": "陈独秀主持起草《中国共产党宣言》。",
         "thumb": "",
@@ -89,12 +95,6 @@
         "text": "國民革命軍北伐軍的一支机械化部队葉挺獨立團成立。",
         "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Northern_Expedition_collage.jpg/330px-Northern_Expedition_collage.jpg?utm_source=zh.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "link": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%B0%91%E9%9D%A9%E5%91%BD%E8%BB%8D%E5%8C%97%E4%BC%90"
-      },
-      {
-        "year": 1936,
-        "text": "七君子事件：沈钧儒、章乃器等七人被国民党当局逮捕。",
-        "thumb": "",
-        "link": "https://zh.wikipedia.org/wiki/1936%E5%B9%B4"
       }
     ],
     "births": [
@@ -170,7 +170,7 @@
       },
       {
         "year": null,
-        "text": "越南：遗产日",
+        "text": "越南：古蹟日",
         "thumb": "",
         "link": "https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97"
       },
